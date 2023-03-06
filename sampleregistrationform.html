@@ -1,0 +1,38 @@
+<html>
+	<head>
+	<title>css page</title>
+	<meta name="viewport" content="width=device-width, initial-scale-1">
+	<link rel="stylesheet" href="C:\Users\Kurra Ajay\OneDrive\Desktop\webtech\css\sampleform.css"/>
+	</head>
+	<body>
+		<div>
+			<form	method="post" action="submit.php">
+				<label style="color: red; font-size: 35px;"><b><u>Registration Form:</u></b></label><br/><br/><hr/><br/>
+				<label class="a">mail  id:  </label><input type="text" name="email" size="18"/><br/><br/>
+				<label class="b">password: </label><input type="password" name="password" size="18"/><br/><br/>
+				<label class="c">Gender: </label><input type="radio" name="gender" value="male"/>Male</label>
+				<input type="radio" name="gender" value="female"/>Female
+				<input type="radio" name="gender" value="other"/>Other<br/><br/>
+				<label class="e">Favourite Games:</label>
+				<input type="checkbox" name="interest" value="foot  bool"/>Football
+				<input type="checkbox" name="interest" value="basketball"/>Basketball
+				<input type="checkbox" name="interest" value="crick    et"/>Cricket
+				<input type="checkbox" name="interest" value="che      ss"/>Chess<br/><br/>
+				<label class="d">Select City:</label>
+				<select name="city">
+					<option value="kolkata">Kolkata</option>
+					<option value="hyderabad">Hyderabad</option>
+					<option value="secunderabad">Secunderabad</option>
+					<option value="chennai">Chennai</option>
+					<option value="warangal">Warangal</option>
+				</select><br/><br/>
+				<label>Address:</label><br/><br/>
+				<textarea name="address" rows="12" cols="50">
+				Write your address...
+				</textarea><br/><br/>
+				<input type="submit" name="submit" value="Submit Form"/>
+				<input type="reset"  name="reset"  value="Reset Form"/>
+			</form>	
+		</div>
+	</body>
+</html>
